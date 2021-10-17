@@ -79,7 +79,14 @@ def stock_info(headings):
 
 
 ## add an input field to pass the RSS link
+
+
+st.caption("RSS is simply an XML text file.t's created by a website publisher and contains a running list of articles or other content published by the site, with the newest entry always at the top of the list.")
+
+
 user_input = st.text_input("Add your RSS link here!", "https://www.moneycontrol.com/rss/buzzingstocks.xml")
+
+st.text("(The results may take a few seconds to load depending on the internet speed)")
 
 ## get the financial  headings
 fin_headings = extract_text_from_rss(user_input)
