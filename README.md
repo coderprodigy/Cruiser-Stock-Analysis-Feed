@@ -2,7 +2,7 @@
 
 ![Olympics Logo](https://www.kindpng.com/picc/m/160-1607796_transparent-png-stocks-statistics-symbol-png-png-download.png)
 
-Nexus is a great dashboard to learn and have great fun with Olympics data. Nexus is for all the users who are interested in interacting with the dataset and who would like to extract and share insights about the Olympic Games.
+Cruiser is a great dashboard where users can add an RSS feed URL of their choice into the application and the data will be processed and the trending stocks will be displayed to them.
 
 ## 🚀 About Me
 I'm an upcoming Software Engineer at JP Morgan and Chase. I love to code and explore various technical stacks. I am an aspiring Dataset.
@@ -15,8 +15,9 @@ Feel free to connect with me and I would love to work together on various projec
 ## Live App Prototype
 https://cruiser-stocks.herokuapp.com/
 
-## Why Cruiser?
-As Tokyo Olympic Games just drew to an end, I wanted to review 120 years history of Modern Olympic Game. Modern Olympic Games are leading international sport events. The creation was inspired by the ancient Olympic Games, held in Olympia, Greece from the 8th century BC to 4th century AD. The first modern Games was held in Athens in 1896.
+[comment]: <> (## Why Cruiser?)
+
+[comment]: <> (As Tokyo Olympic Games just drew to an end, I wanted to review 120 years history of Modern Olympic Game. Modern Olympic Games are leading international sport events. The creation was inspired by the ancient Olympic Games, held in Olympia, Greece from the 8th century BC to 4th century AD. The first modern Games was held in Athens in 1896.)
 
 ## Features
 
@@ -26,7 +27,7 @@ As Tokyo Olympic Games just drew to an end, I wanted to review 120 years history
 - Cross platform
 
 ## The Dataset
-This is a historical dataset on the modern Olympic Games, including all the Games from Athens 1896 to Rio 2016. The data contains 271116 rows and 15 columns. Each row corresponds to an individual athlete competing in an individual Olympic event (athlete-events). For this exercise, I will focus on the Summer Olympic Games.
+This dataset contains the list of the Top 500 companies 
 
 ## Data Exploration
 There are two csv files under this dataset. AthleteEvents contains the detail of the athlete participating in each event. It have the height, weight, age and name of athletes, the sport and the event and the result(medal won). nocRegion contains the three letters NOC name and respective regions.
